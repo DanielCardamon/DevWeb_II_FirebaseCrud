@@ -2,7 +2,8 @@ const { initializeApp, applicationDefault, cert } = require('firebase-admin/app'
 const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
 
 
-const serviceAccount = require('./projetoweb-8cd04-firebase-adminsdk-mau34-71ee669e29.json');
+const serviceAccount = require('./PrivateKeyFirebaseAcountService.json');
+
 const { where } = require('sequelize');
 
 initializeApp({
