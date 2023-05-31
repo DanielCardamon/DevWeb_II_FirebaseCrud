@@ -3,4 +3,4 @@ Conforme as informações da aula do dia 10.05.2023; Exemplo de um CRUD simples 
 
 npm install firebase-admin --save
 
-npm install firebase
+npm install firebase 
